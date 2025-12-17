@@ -93,7 +93,8 @@ python biotuch.py --cfg_file cfg_files/demo.yaml
 
 **Command line options:**
 - `--cfg_file`: Path to configuration file (required)
-- `--output_name`: Name suffix for output folder (default: "output")
+- `--input_folder`: Input data folder (default: data/demo/input)
+- `--output_folder`: Output folder (default: data/demo/output)
 - `--skip_preprocessing`: Skip preprocessing steps (i.e., keypoints extraction) if already done
 - `--interactive`: Enable verbose debug output
 
@@ -123,7 +124,7 @@ BioTUCH provides code for contact-aware refinement of human pose pseudo-ground t
 
 ## Citation
 
-If you find this Model & Software useful in your research we would kindly ask you to cite:
+If you find this Model & Software useful in your research, we would kindly ask you to cite:
 
 ```
 @inproceedings{Forte25-ICCV-BioTUCH,
