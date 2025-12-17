@@ -1,0 +1,24 @@
+name: biotuch
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9.*
+  - pytorch=1.11
+  - torchvision=0.12
+  - trimesh
+  - tqdm
+  - pyyaml
+  - configargparse
+  - ffmpeg
+  - pip
+  
+  - pip:
+    - numpy<2.0
+    - smplx
+    - onnxruntime-gpu==1.18.0
+    - ultralytics
+    - mediapipe
+    - pillow
+    - opencv-python-headless
+    - pyrender==0.1.23

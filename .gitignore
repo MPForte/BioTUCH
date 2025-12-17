@@ -1,0 +1,10 @@
+# Project directories
+data/
+cluster_tmplogs/
+archive/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
