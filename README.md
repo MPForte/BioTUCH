@@ -2,10 +2,6 @@
 
 [[Project Page](https://biotuch.is.tue.mpg.de/)] 
 
-## Comment
-The test code is ready to use!  
-The full dataset will be released soon!
-
 ## Table of Contents
   * [Setup](#setup)
   * [Testing](#testing)
